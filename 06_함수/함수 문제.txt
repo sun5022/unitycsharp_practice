@@ -1,0 +1,131 @@
+매개변수 int x와 int y를 받아 사칙연산을 실행하고 결과 값을 출력하는 함수를 각각 만드세요.
+(각각의 함수의 이름은 덧셈 Add, 뺄셈 Sub, 곱셈 Mul, 나눗셈 Div로 설정하세요.)
+
+void Start(){
+
+int x = 16;
+int y = 4;
+int result;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+예1 : 함수반환형식을 void로 했을 경우
+//void는 return 값이 없습니다.
+void Start() 
+    {
+        int x = 16;
+        int y = 4;
+        int result;
+
+        
+
+        Add(x,y); //덧셈
+        Sub(x,y); //뺄셈
+        Mul(x,y); //곱셈
+        Div(x,y); //나눗셈
+
+
+        void Add (int x0, int y0){
+            result = x0+y0;
+            print("덧셈 결과값: "+result);
+        }
+
+        void Sub (int x1, int y1){
+            result = x1-y1;
+            print("뺄셈 결과값: "+result);
+        }
+
+        void Mul (int x2, int y2){
+            result = x2*y2;
+            print("곱셈 결과값: "+result);
+        }
+
+        void Div (int x3, int y3){
+            result = x3/y3;
+            print("나눗셈 결과값: "+result);
+        }
+        
+
+    }
+
+예2 : 함수반환형식을 string이나 int로 했을 경우
+
+void Start() 
+    {
+        int x = 16;
+        int y = 4;
+        int result;
+
+        
+        //반환형식을 string이나 int로 했을 경우는 print문을 사용해서 출력할 수 있다.
+        //void에 비해서 여러방면으로 사용할 수 있는 장점이있다, 다른 함수의 입력값 등으로 사용하는 방법도 있다.
+        print(Add(x,y)); //덧셈
+        print(Sub(x,y)); //뺄셈
+        print(Mul(x,y)); //곱셈
+        print(Div(x,y)); //나눗셈
+
+
+        //함수 반환형식이 int일 경우에는 int값을 반환해주어야 하기때문에 return(result);
+        string Add (int x0, int y0){
+            result = x0+y0;
+            return("덧셈 결과값: "+result);
+	
+        }
+
+        string Sub (int x1, int y1){
+            result = x1-y1;
+            return("뺄셈 결과값: "+result);
+        }
+
+        string Mul (int x2, int y2){
+            result = x2*y2;
+            return("곱셈 결과값: "+result);
+        }
+
+        string Div (int x3, int y3){
+            result = x3/y3;
+            return("나눗셈 결과값: "+result);
+        }
+        
+
+    }
