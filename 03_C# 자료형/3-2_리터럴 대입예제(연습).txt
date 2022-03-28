@@ -1,0 +1,91 @@
+//한 정수변수에 10을 대입하고 출력하고 실수 변수에는 10.2를 대입하고 출력
+// 변수 num선언
+// 변수 num에 10 대입
+// 변수 num 출력
+// 실수 fNum 선언
+// 실수 fNum에 10.2 대입
+// fNum 출력
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 변수 num선언
+int num;
+// 변수 num에 10 대입
+num = 10;
+// 변수 num 출력
+print(num);
+// 실수 fNum 선언
+float fNum;
+// 실수 fNum에 10.2 대입
+fNum = 10.2f;
+// fNum 출력
+print(fNum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//주석없음
+int num;
+num = 10;
+print(num);
+float fNum;
+fNum = 10.2f;
+print(fNum);
