@@ -1,0 +1,55 @@
+다음의 형변환 오류를 수정하세요
+int intNum;
+intNum = 2.1f;
+print(intNum1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+해결책 1 - intNum 을 float 로 바꾸기 
+
+float intNum;
+intNum = 2.1f;
+print(intNum1);
+
+
+해결책 2 - 2.1f 에 강제 형변환을 적용 
+
+int intNum;
+intNum = (int)2.1f;
+print(intNum1);

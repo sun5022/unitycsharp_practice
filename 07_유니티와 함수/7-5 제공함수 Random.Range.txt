@@ -1,0 +1,23 @@
+제공함수 Random.Range
+int number = Random.Range(0,10);
+
+namespace Utility
+{
+	public class MyRandom{
+		public static int Range(int a, int b) {
+			return a + b;
+		}
+	}
+}
+
+////
+using Utility;
+public class TestScript : MonoBehaviour
+{
+	public void Start{
+		int result = MyRandom.Range(10,20);
+		print(result);
+	}
+}
+
+

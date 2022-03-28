@@ -1,0 +1,71 @@
+변수 numA와 변수 numB로 덧셈, 뺄셈, 곱셈, 나눗셈을 실행하고 값을 순서대로 콘솔에 출력하는 프로그램을 작성하세요
+(조건 : numA와 numB는 int형, 결과값은 변수 result에 대입해 출력하세요.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+해답:
+int numA = 12;
+int numB = 4;
+//덧셈
+int result = numA + numB;
+print(result);
+//뺄셈
+int result = numA - numB;
+print(result);
+//곱셈
+int result = numA * numB;
+print(result);
+//나눗셈
+int result = numA / numB;
+print(result);

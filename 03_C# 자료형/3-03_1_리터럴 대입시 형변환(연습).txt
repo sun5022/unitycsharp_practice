@@ -1,0 +1,93 @@
+// 한 실수변수에 정수 리터럴을 대입하고 출력해보고 
+// 다른 실수변수에 실수 리터럴을 대입하고 출력
+//정수 리터럴을 float 에 대입해도 문제가 없음을 알아보는 내용
+// fNum1 의 실수 선언
+// fNum1에 2를 대입
+// fNum1 출력
+// fNum2 의 실수 선언
+// fNum2 에 2.0f 대입
+// fNum2 출력
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fNum1 의 실수 선언
+float fNum1;
+// fNum1에 2를 대입
+fNum1 = 2;
+// fNum1 출력
+print(fNum1);
+// fNum2 의 실수 선언
+float fNum2;
+// fNum2 에 2.0f 대입
+fNum2 = 2.0f;
+// fNum2 출력
+print(fNum2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 주석없음
+float fNum1;
+fNum1 = 2;
+print(fNum1);
+float fNum2;
+fNum2 = 2.0f;
+print(fNum2);

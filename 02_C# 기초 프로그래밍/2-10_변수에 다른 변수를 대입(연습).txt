@@ -1,0 +1,87 @@
+// 하나의 변수를 선언하고 대입한후 그 값을 다른 변수에 대입하고 출력
+// 변수 num 선언
+// 변수 value 선언
+// num에 5 대입
+// value에 num 대입
+// value 출력
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 변수 num 선언
+int num;
+// 변수 value 선언
+int value;
+// num에 5 대입
+num = 5;
+// value에 num 대입
+value = num;
+// value 출력
+print(value);
+
+
+
+
+
+
+
+
+
+
+
+
+
+//주석없음
+int num;
+int value;
+num = 5;
+value = num;
+print(value);
